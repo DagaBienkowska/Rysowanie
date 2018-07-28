@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("\n");
         for (int i = 0; i < n; i++){
-            if (i == 0 || i == 9){
+            if (i == 0 || i == n-1){
                 for (int j = 0; j < n; j++){
                     System.out.print("*");
                 }
@@ -31,6 +31,14 @@ public class Main {
                         System.out.print(" ");
                     }
                 }
+            }
+            System.out.println();
+        }
+
+        System.out.println("\n");
+        for (int i = 0; i < n; i++){
+            for (int j = n-i; j < n; j++){
+                System.out.print("*");
             }
             System.out.println();
         }
