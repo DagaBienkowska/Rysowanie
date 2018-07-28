@@ -61,6 +61,8 @@ public class Main {
             System.out.println();
         }
 
+        //choinka
+        n = 10;
         System.out.println("\n");
         for (int i = 0; i < n; i++) {
             for (int j = n - i; j > 0; j--) {
@@ -72,13 +74,14 @@ public class Main {
             System.out.println();
         }
         for (int i = 0; i < n/2-1; i++){
-            for (int j = 0; j < n/2+1; j++) {
+            for (int j = 0; j < n/2+1*2; j++) {
                 System.out.print(" ");
             }
-            for (int k = 0; k < n; k++) {
+            for (int k = 0; k < n/2+1*2; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }
+
     }
 }
