@@ -6,6 +6,7 @@ public class Stos_kolejka {
 
     public static void main(String[] args) {
 
+        //odwracanie
         String abc = "ABCdefg";
         System.out.println(abc);
         Stack<Character> reverse = new Stack<>();

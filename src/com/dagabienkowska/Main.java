@@ -10,7 +10,7 @@ public class Main {
             System.out.print("*");
         }
 
-        //caly kwadrat
+        //caly kwadrat wypelniony
         System.out.println("\n");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
